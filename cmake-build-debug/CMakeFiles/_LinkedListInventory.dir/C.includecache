@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/LinkedList.h
+item.h
+C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/item.h
+
+C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/item.h
+
+C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/main.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+stdbool.h
+-
+conio.h
+-
+LinkedList.h
+C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/LinkedList.h
+

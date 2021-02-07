@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="_LinkedListInventory"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_LinkedListInventory">
+				<Option output="C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/_LinkedListInventory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 _LinkedListInventory"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_LinkedListInventory/fast">
+				<Option output="C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/_LinkedListInventory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 _LinkedListInventory/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/Inventory.h">
+			<Option target="_LinkedListInventory"/>
+		</Unit>
+		<Unit filename="C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/LinkedList.h">
+			<Option target="_LinkedListInventory"/>
+		</Unit>
+		<Unit filename="C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/item.h">
+			<Option target="_LinkedListInventory"/>
+		</Unit>
+		<Unit filename="C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/main.c">
+			<Option target="_LinkedListInventory"/>
+		</Unit>
+		<Unit filename="C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
