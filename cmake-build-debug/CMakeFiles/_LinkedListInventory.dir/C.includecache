@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/LinkedList.h
+C:/Users/madusha mihiranga/Project/CLinkedListInventory/LinkedList.h
 item.h
-C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/item.h
+C:/Users/madusha mihiranga/Project/CLinkedListInventory/item.h
 
-C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/item.h
+C:/Users/madusha mihiranga/Project/CLinkedListInventory/item.h
 
-C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/main.c
+C:/Users/madusha mihiranga/Project/CLinkedListInventory/main.c
 stdio.h
 -
 string.h
@@ -24,5 +24,5 @@ stdbool.h
 conio.h
 -
 LinkedList.h
-C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/LinkedList.h
+C:/Users/madusha mihiranga/Project/CLinkedListInventory/LinkedList.h
 

@@ -63,10 +63,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\madusha mihiranga\CLionProjects\ LinkedListInventory"
+CMAKE_SOURCE_DIR = "C:\Users\madusha mihiranga\Project\CLinkedListInventory"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\madusha mihiranga\CLionProjects\ LinkedListInventory\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\madusha mihiranga\Project\CLinkedListInventory\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/_LinkedListInventory.dir/clean
 CMakeFiles/_LinkedListInventory.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\_LinkedListInventory.dir\build.make CMakeFiles/_LinkedListInventory.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\_LinkedListInventory.dir\build.make CMakeFiles/_LinkedListInventory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\madusha mihiranga\CLionProjects\ LinkedListInventory\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target _LinkedListInventory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\madusha mihiranga\Project\CLinkedListInventory\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target _LinkedListInventory"
 .PHONY : CMakeFiles/_LinkedListInventory.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_LinkedListInventory.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\madusha mihiranga\CLionProjects\ LinkedListInventory\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\madusha mihiranga\Project\CLinkedListInventory\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/_LinkedListInventory.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\madusha mihiranga\CLionProjects\ LinkedListInventory\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\madusha mihiranga\Project\CLinkedListInventory\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/_LinkedListInventory.dir/rule
 
 # Convenience name for target.

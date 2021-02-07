@@ -40,15 +40,16 @@ void addNewSale(){
     struct sell bill[] = {};
     printf("\nCreate New Sale");
     int bill_length = sizeof(bill)/sizeof(bill[0]);
-    int continueAddItems = 1;
-    while (continueAddItems == 1){
-        if (bill_length == 0){
+    int itemCount = 1;
+    while (itemCount != 0){
+        printf("%i",itemCount);
+/*        if (bill_length == 0){
             bill[0] = addItemToSale();
         } else{
             printf("\nDo You want to add more items (yes = 1/no = 0) :");
             scanf("%i",&continueAddItems);
             bill[bill_length+1] = addItemToSale();
-        }
+        }*/
     }
 
 }

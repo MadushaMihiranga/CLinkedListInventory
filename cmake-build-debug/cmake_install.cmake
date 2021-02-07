@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory
+# Install script for directory: C:/Users/madusha mihiranga/Project/CLinkedListInventory
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/madusha mihiranga/CLionProjects/ LinkedListInventory/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/madusha mihiranga/Project/CLinkedListInventory/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

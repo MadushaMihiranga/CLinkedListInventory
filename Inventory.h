@@ -50,7 +50,6 @@ void testInv(){
 
     printf("Original List: ");
 
-    //print list
     printList();
 
     while(!isEmpty()) {
@@ -97,11 +96,6 @@ void testInv(){
     }
 
     printf("\n");
-    //sort();
-
-    //printf("List after sorting the data: ");
-    //printList();
-
     reverse(&head);
     printf("\nList after reversing the data: ");
     printList();
