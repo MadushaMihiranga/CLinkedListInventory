@@ -36,13 +36,49 @@ struct sell addItemToSale(){
 };
 
 void addNewSale(){
-    float total = 0.00;
-    struct sell bill[] = {};
-    printf("\nCreate New Sale");
-    int bill_length = sizeof(bill)/sizeof(bill[0]);
-    int itemCount = 1;
-    while (itemCount != 0){
+    float total;
+    int itemCount;
+
+    printf("\nCreate New Sale\n");
+    printf("Enter the number of items :");
+    scanf("%i",&itemCount);
+    //struct sell bill[] = {};
+    //int bill_length = sizeof(bill)/sizeof(bill[0]);
+    while (itemCount > 0){
         printf("%i",itemCount);
+        int itemId;
+        int qty;
+        //struct sell row;
+        printf("\nEnter item ID :");
+        scanf("%i",&itemId);
+        struct node *foundLink = find(itemId);
+        if (foundLink != NULL){
+            printf("Enter Quantity :");
+            scanf("%i",&qty);
+            if (foundLink->data.count < qty){
+                printf("\nNot enough stock\n");
+            } else{
+                float lineTotal = foundLink->data.price * qty;
+                printf("%s   -   %i  :   %.2f  :   %.2f ",foundLink->data.name,qty,foundLink->data.price,lineTotal);
+                foundLink->data.count = foundLink->data.count-qty;
+         /*       row.qty = qty;
+                row.itemId = itemId;
+                if (bill_length ==0){
+                    bill[0] = row;
+                } else{
+                    bill[bill_length+1] = row;
+                }*/
+                //total = total+lineTotal;
+            }
+        } else{
+            printf("\nCould not find item number %i \n",itemId);
+        }
+
+        //printf("%i",bill_length);
+        itemCount--;
+
+
+
 /*        if (bill_length == 0){
             bill[0] = addItemToSale();
         } else{
@@ -51,6 +87,7 @@ void addNewSale(){
             bill[bill_length+1] = addItemToSale();
         }*/
     }
+    //printf("\nTotal value of sale : %i \n",total);
 
 }
 
